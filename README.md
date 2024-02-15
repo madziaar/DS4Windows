@@ -38,7 +38,7 @@ Example:
 ### What you should set as the vid, pid, name, and type
 
 > [!IMPORTANT]
-> **If your controller has a switch for "PS4", "PS5, and/or "PC", set the switch to any of the PS alternatives NOT "PC". Recommended is "PS5" if your controller have it**
+> **If your controller has a switch for "PS4", "PS5, and/or "PC", set the switch to any of the PS alternatives NOT "PC". Recommended is "PS5" if your controller has it**
 
 The "name" can be whatever you want, it's only used to display the name of the controller
 
@@ -48,7 +48,7 @@ The "vid" is the Vendor and "pid" is the "product", see the image below to find 
 
 
 The "type" can either be set to "ds4" or "ds5".
-You can check what the games such as Warezone or Fortnite detectes your controller and put the "type" accordingly if you don't know.
+You can check what the games such as Warezone or Fortnite detects your controller as and put the "type" accordingly if you don't know.
 
 # DS4Windows **Unedited inforamtion below**
 
