@@ -6,7 +6,7 @@ It's mainly to keep DS4Windows and keep it working with very little maintenance
 ## Adding devices via the ExtDevices.json
 
 In the root folder you will now find a "ExtDevices.json" it will contain following text:
-'''
+```
 [
   {
     "vid": "3285",
@@ -15,10 +15,10 @@ In the root folder you will now find a "ExtDevices.json" it will contain followi
     "type": "ds5"
   }
 ]
-'''
+```
 To add a new device just copy everything including "{" to "}" and replace the values with corrsponding values of your controller and adding "," before pasting.
 Example:
-'''
+```
 [
   {
     "vid": "3285",
@@ -33,7 +33,7 @@ Example:
     "type": "Your type"
   }
 ]
-'''
+```
 
 ### What you should set as the vid, pid, name, and type
 
