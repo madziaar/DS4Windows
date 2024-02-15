@@ -40,9 +40,11 @@ Example:
 **If your controller has a switch for "PS4", "PS5, and/or "PC", set the switch to any of the PS alternatives NOT "PC". Recommended is "PS5" if your controller have it**
 
 The "name" can be whatever you want, it's only used to display the name of the controller
+
 The "pid" and "vid" is used to identify the controller, you can get it on https://hardwaretester.com/gamepad
 The "vid" is the Vendor and "pid" is the "product", see the image below to find where too look for them.
 ![DS4Windows Preview](https://raw.githubusercontent.com/HaredDev/DS4Windows/5a945cefdcc956431dab3370b033d855f9179e1b/gamepad-tester.png)
+
 
 The "type" can either be set to "ds4" or "ds5".
 You can check what the games such as Warezone or Fortnite detectes your controller and put the "type" accordingly if you don't know.
