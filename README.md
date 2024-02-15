@@ -1,4 +1,53 @@
-# DS4Windows
+# Hared Edits
+
+This fork DS4Windows will only have minor changes and no major updates,
+It's mainly to keep DS4Windows and keep it working with very little maintenance
+
+## Adding devices via the ExtDevices.json
+
+In the root folder you will now find a "ExtDevices.json" it will contain following text:
+'''
+[
+  {
+    "vid": "3285",
+    "pid": "0d19",
+    "name": "Nacon Revolution 5 pro",
+    "type": "ds5"
+  }
+]
+'''
+To add a new device just copy everything including "{" to "}" and replace the values with corrsponding values of your controller and adding "," before pasting.
+Example:
+'''
+[
+  {
+    "vid": "3285",
+    "pid": "0d19",
+    "name": "Nacon Revolution 5 pro",
+    "type": "ds5"
+  },
+  {
+    "vid": "Your Vid",
+    "pid": "Your Pid",
+    "name": "Your Name",
+    "type": "Your type"
+  }
+]
+'''
+
+### What you should set as the vid, pid, name, and type
+
+**If your controller has a switch for "PS4", "PS5, and/or "PC", set the switch to any of the PS alternatives NOT "PC". Recommended is "PS5" if your controller have it**
+
+The "name" can be whatever you want, it's only used to display the name of the controller
+The "pid" and "vid" is used to identify the controller, you can get it on https://hardwaretester.com/gamepad
+The "vid" is the Vendor and "pid" is the "product", see the image below to find where too look for them.
+![DS4Windows Preview](https://raw.githubusercontent.com/HaredDev/DS4Windows/jay/gamepad-tester.png)
+
+The "type" can either be set to "ds4" or "ds5".
+You can check what the games such as Warezone or Fortnite detectes your controller and put the "type" accordingly if you don't know.
+
+# DS4Windows **Unedited inforamtion below**
 
 Like those other DS4 tools, but sexier.
 
