@@ -37,7 +37,8 @@ Example:
 
 ### What you should set as the vid, pid, name, and type
 
-**If your controller has a switch for "PS4", "PS5, and/or "PC", set the switch to any of the PS alternatives NOT "PC". Recommended is "PS5" if your controller have it**
+> [!IMPORTANT]
+> **If your controller has a switch for "PS4", "PS5, and/or "PC", set the switch to any of the PS alternatives NOT "PC". Recommended is "PS5" if your controller have it**
 
 The "name" can be whatever you want, it's only used to display the name of the controller
 
