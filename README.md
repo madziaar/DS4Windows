@@ -1,7 +1,7 @@
 # Hared Edits
 
 This fork DS4Windows will only have minor changes and no major updates,
-It's mainly to keep DS4Windows and keep it working with very little maintenance
+It's mainly to keep it working with very little maintenance
 
 ## Adding devices via the ExtDevices.json
 
